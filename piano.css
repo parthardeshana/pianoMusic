@@ -1,0 +1,104 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* background-color: black; */
+}
+h1 {
+    color: black;
+    background-color: gray;
+    display: inline-block;
+    margin: 7px 35%;
+    padding: 5px 23px;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+hr {
+    background-color: black;
+}
+.musicBtn {
+    color: black;
+    width: 6%;
+    height: 20%;
+    margin: 0;
+    padding-top: 28%;
+    border-color: black;
+    box-shadow: inset 5px 30px 30px 5px black;
+    background:linear-gradient(to bottom, white 0%, orange 100%);
+}
+
+.btn-list {
+border: 2px solid black;
+}
+.musicBtn:active{  
+    box-shadow: inset 0px 0px 10px 10px white;
+    background:linear-gradient(to bottom, orange 0%, white 100%);
+    /* background:linear-gradient(to bottom, white 100%, orange 10%); */
+
+}
+
+.black , .black1, .black2, .black3 , .black4 ,
+.black5 , .black6, .black7, .black8 , .black9,
+.black10 , .black11,.black12,.black13  {
+    position: absolute;
+    color: white;
+    width: 3%;
+    height: 19%;
+    padding: 8% 0;
+    margin-left: -89.6%;
+    margin-bottom: 10.3%;
+    z-index: 99;
+    border: 1px solid black;
+    background:linear-gradient(to bottom, gray 0%, black 100%);
+}
+.black:active , .black1:active , .black2:active , .black3:active, 
+.black4:active , .black5:active , .black6:active , .black7:active, 
+.black8:active , .black9:active , .black10:active , .black11:active,
+.black12:active , .black13:active {
+    background:linear-gradient(to bottom, black 0%, gray 100%);
+}
+.black1 {
+    margin-left: -83.5%;
+}
+.black2 {
+    margin-left: -77%;
+}
+.black3 {
+    margin-left: -70.5%;
+}
+.black4 {
+    margin-left: -64.3%;
+}
+.black5 {
+    margin-left: -58%;
+}
+.black6 {
+    margin-left: -51.6%;
+}
+.black7 {
+    margin-left: -45.3%;
+}
+.black8 {
+    margin-left: -39%;
+}
+.black9 {
+    margin-left: -32.6%;
+}
+.black10 {
+    margin-left: -26.4%;
+}
+.black11 {
+    margin-left: -20%;
+}
+.black12 {
+    margin-left: -14%;
+}
+.black13 {
+    margin-left: -7.5%;
+}
+p {
+    color: black;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
