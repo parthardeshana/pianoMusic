@@ -102,3 +102,91 @@ p {
     font-weight: bold;
 }
 
+
+@media only screen and (max-width:600px) {
+    h1 {
+        padding: 7px;
+        margin: 10px 84px;
+        font-size: 22px;
+    }
+#w15, #w14, #w13,
+#b4, #b8, #b13 {
+    display: none;
+}
+    .musicBtn {
+        color: black;
+        width: 6%;
+        height: 10%;
+        margin: 0;
+        padding-top: 28%;
+        border-color: black;
+        box-shadow: inset 5px 30px 30px 5px black;
+        background:linear-gradient(to bottom, white 0%, orange 100%);
+    }
+    
+    .btn-list {
+    border: 2px solid black;
+    }
+    .musicBtn:active{  
+        box-shadow: inset 0px 0px 10px 10px white;
+        background:linear-gradient(to bottom, orange 0%, white 100%);
+    }
+    
+    .black , .black1, .black2, .black3 , .black4 ,
+    .black5 , .black6, .black7, .black8 , .black9,
+    .black10 , .black11,.black12,.black13  {
+        position: absolute;
+        color: white;
+        width: 4%;
+        height: 10%;
+        padding: 4% 0;
+        margin-left: -89.6%;
+        margin-bottom: 10.3%;
+        z-index: 99;
+        border: 1px solid black;
+        background:linear-gradient(to bottom, gray 0%, black 100%);
+    }
+    .black:active , .black1:active , .black2:active , .black3:active, 
+    .black4:active , .black5:active , .black6:active , .black7:active, 
+    .black8:active , .black9:active , .black10:active , .black11:active,
+    .black12:active , .black13:active {
+        background:linear-gradient(to bottom, black 0%, gray 100%);
+    }
+    .black1 {
+        margin-left: -81.5%;
+    }
+    .black2 {
+        margin-left: -73%;
+    }
+    .black4 {
+         margin-left: -65.3%;
+    }
+    .black5 {
+        margin-left: -57%;
+    }
+    .black6 {
+        margin-left: -49.6%;
+    }
+    .black8 {
+        margin-left: -41%;
+    }
+    .black9 {
+        margin-left: -32.6%;
+    }
+    .black10 {
+        margin-left: -25.4%;
+    }
+    .black11 {
+        margin-left: -17.4%;
+    }
+    .black13 {
+        margin-left: -9.5%;
+    }
+    p {
+        color: black;
+        margin-top: 5%;
+        font-size: 16px;
+}
+    }
+    
+}
