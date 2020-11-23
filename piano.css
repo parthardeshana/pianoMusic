@@ -24,7 +24,7 @@ hr {
     padding-top: 28%;
     border-color: black;
     box-shadow: inset 5px 30px 30px 5px black;
-    background:linear-gradient(to bottom, white 0%, orange 100%);
+    background:linear-gradient(to bottom, white 0%, pink 100%);
 }
 
 .btn-list {
